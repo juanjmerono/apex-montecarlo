@@ -1,0 +1,78 @@
+---
+- # ====== Build Option: Commented Out =========================
+  id: 72041410457756963028
+  identification: 
+    name: Commented Out
+
+  status: 
+    status: Exclude
+    default-on-export: Same as Current Status
+    on-upgrade-keep-status: false
+
+  subscription: 
+    version-number: 15587803308480
+
+- # ====== Build Option: Feature: Access Control ===============
+  id: 72042304375244963296
+  identification: 
+    name: 'Feature: Access Control'
+
+  status: 
+    status: Include
+    default-on-export: Same as Current Status
+    on-upgrade-keep-status: false
+
+  comments: 
+    comments: Incorporate role based user authentication within your application and manage username mappings to application roles.
+
+  subscription: 
+    version-number: 15587803320641
+
+- # ====== Build Option: Feature: Activity Reporting ===========
+  id: 72042304415161963296
+  identification: 
+    name: 'Feature: Activity Reporting'
+
+  status: 
+    status: Include
+    default-on-export: Same as Current Status
+    on-upgrade-keep-status: false
+
+  comments: 
+    comments: Include numerous reports and charts on end user activity.
+
+  subscription: 
+    version-number: 15587803320648
+
+- # ====== Build Option: Feature: Configuration Options ========
+  id: 72042304741701963296
+  identification: 
+    name: 'Feature: Configuration Options'
+
+  status: 
+    status: Include
+    default-on-export: Same as Current Status
+    on-upgrade-keep-status: false
+
+  comments: 
+    comments: Allow application administrators to enable or disable specific functionality, associated with an Oracle APEX build option, from within the application.
+
+  subscription: 
+    version-number: 15587803320631
+
+- # ====== Build Option: Feature: Theme Style Selection ========
+  id: 72042305102288963296
+  identification: 
+    name: 'Feature: Theme Style Selection'
+
+  status: 
+    status: Include
+    default-on-export: Same as Current Status
+    on-upgrade-keep-status: false
+
+  comments: 
+    comments: 'Allow administrators to select a default color scheme (theme style) for the application. Administrators can also choose to allow end users to choose their own theme style. '
+
+  subscription: 
+    version-number: 15587803320654
+
