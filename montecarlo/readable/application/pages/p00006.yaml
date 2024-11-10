@@ -2361,7 +2361,8 @@ processes:
           END LOOP;
       
           -- Confirmar los resultados en la base de datos
-          COMMIT;
+          -- No es necesario LA TRANSACCIÓN LA CONTROLA EL PROCESO EXTERNO !!
+          -- COMMIT;
           
       END;
       
