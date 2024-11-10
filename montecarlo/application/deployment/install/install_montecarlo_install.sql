@@ -38,7 +38,7 @@ wwv_flow_imp_shared.create_install_script(
 '    optimistic    number(10,2) not null,',
 '    likely        number(10,2) not null,',
 '    pesimistic    number(10,2) not null,',
-'    disabled       number(1) default 0 not null',
+'    disabled      number(1) default 0 not null',
 ');',
 '',
 '-- table index',
